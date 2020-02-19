@@ -26,14 +26,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    * |------+------+------+------+------+------+---------------------------+------+------+------+------+------+------+------|
    * | Shift|   Z  |   X  |   C  |   V  |   B  | Enter|                    | Space|   N  |   M  |   ,  |   .  |  Up  |   ~  |
    * |-------------+------+------+------+------+------+------+------+------+------+------+------+------+------+-------------|
-   * |  Esc |   _  |  Alt | GUI  ||||||||  Eisu| Lower| Space|||||||| Enter| Raise|  Kana||||||||  GUI | Left | Down | Right|
+   * |  Esc |  Alt |  Alt | GUI  ||||||||  Eisu| Lower| Space|||||||| Enter| Raise|  Kana||||||||  GUI | Left | Down | Right|
    * ,----------------------------------------------------------------------------------------------------------------------.
    */
   [_QWERTY] = LAYOUT( \
     KC_TAB,  KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,    KC_QUOTE,                        KC_BSPC, KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,    KC_MINS, \
     KC_LCTL,  KC_A,    KC_S,    KC_D,    KC_F,    KC_G,    KC_LBRC,                        KC_RBRC, KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_SLSH , \
     KC_LSFT, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,      KC_ENT,                        KC_SPC, KC_N,    KC_M,    KC_COMM, KC_DOT,     KC_UP, KC_TILD, \
-    KC_ESC, KC_UNDS, KC_LALT,KC_LGUI,          KC_HANJ,   LOWER , KC_SPC,        KC_ENT ,RAISE, KC_HAEN,            KC_RGUI, KC_LEFT, KC_DOWN,   KC_RGHT  \
+    KC_ESC, KC_LALT, KC_LALT,KC_LGUI,          KC_HANJ,   LOWER , KC_SPC,        KC_ENT ,RAISE, KC_HAEN,            KC_RGUI, KC_LEFT, KC_DOWN,   KC_RGHT  \
   ),
 
   /* Lower
@@ -44,14 +44,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    * |------+------+------+------+------+------+---------------------------+------+------+------+------+------+------+------|
    * | Shift|   6  |   7  |   8  |   9  |   0  | Enter|                    | Space| Down |      |      |   ?  |   _  |   `  |
    * |-------------+------+------+------+------+------+------+------+------+------+------+------+------+------+-------------|
-   * |  Esc |   _  |  Alt |  GUI ||||||||  Eisu| Lower| Space|||||||| Enter| Raise|  Kana||||||||  GUI |      |      | Enter|
+   * |  Esc |  Alt |  Alt |  GUI ||||||||  Eisu| Lower| Space|||||||| Enter| Raise|  Kana||||||||  GUI |      |      | Enter|
    * ,----------------------------------------------------------------------------------------------------------------------.
    */
   [_LOWER] = LAYOUT( 
     KC_TAB , KC_EXLM, KC_DQT, KC_HASH,  KC_DLR,  KC_PERC, KC_GRV,                        KC_DEL, KC_CIRC, KC_AMPR, KC_LPRN, KC_RPRN, KC_UP,  KC_PIPE, \
     KC_LCTL , KC_1,     KC_2,    KC_3,    KC_4,     KC_5, KC_LBRC,                        KC_RBRC, KC_LEFT, KC_DOWN, KC_UP  , KC_RGHT, KC_COLN, KC_PLUS, \
     KC_LSFT,  KC_6,     KC_7,    KC_8,    KC_9,     KC_0,  KC_ENT,                         KC_SPC, KC_DOWN, _______,  _______, KC_QUES, KC_UNDS,   KC_GRV, \
-    KC_ESC, KC_UNDS, KC_LALT, KC_LGUI,           KC_HANJ,   LOWER, KC_SPC,        KC_ENT,RAISE , KC_HAEN,            KC_RGUI,  _______, _______, KC_ENT  \
+    KC_ESC, KC_LALT, KC_LALT, KC_LGUI,           KC_HANJ,   LOWER, KC_SPC,        KC_ENT,RAISE , KC_HAEN,            KC_RGUI,  _______, _______, KC_ENT  \
   ),
 
   /* Raise
