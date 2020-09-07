@@ -48,10 +48,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    * ,----------------------------------------------------------------------------------------------------------------------.
    */
   [_LOWER] = LAYOUT(
-    KC_TAB,  KC_EXLM, KC_HASH, LCTL(KC_E),  KC_DLR,  KC_PERC, KC_GRV,                         KC_DEL,  KC_CIRC, KC_AMPR, KC_LPRN, KC_RPRN, KC_UP,   KC_PIPE, \
-    KC_LCTL, LCTL(KC_A), _______, KC_DEL,  KC_RGHT, _______, KC_LBRC,                        KC_RBRC, KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_COLN, KC_QUES, \
-    KC_LSFT, _______, _______, _______, _______, KC_LEFT, KC_ENT,                         KC_SPC,  KC_DOWN, _______, KC_LT,   KC_GT,   KC_UNDS, KC_GRV,  \
-    KC_ESC,  KC_LALT, KC_LALT, KC_LGUI,          KC_HANJ, LOWER,   KC_SPC,        KC_ENT, RAISE,   KC_HAEN,          KC_RGUI, _______, _______, KC_ENT   \
+    KC_TAB,  KC_EXLM,    KC_HASH, LCTL(KC_E), KC_DLR,  KC_PERC, KC_GRV,                         KC_DEL,  KC_CIRC, KC_AMPR, KC_LPRN, KC_RPRN, KC_UP,   KC_PIPE, \
+    KC_LCTL, LCTL(KC_A), _______, KC_DEL,     KC_RGHT, _______, KC_LBRC,                        KC_RBRC, KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_COLN, KC_QUES, \
+    KC_LSFT, _______,    _______, _______,    _______, KC_LEFT, KC_ENT,                         KC_SPC,  KC_DOWN, _______, KC_LT,   KC_GT,   KC_UNDS, KC_GRV,  \
+    KC_ESC,  KC_LALT,    KC_LALT, KC_LGUI,             KC_HANJ, LOWER,   KC_SPC,        KC_ENT, RAISE,   KC_HAEN,          KC_RGUI, _______, _______, KC_ENT   \
   ),
 
   /* Raise
