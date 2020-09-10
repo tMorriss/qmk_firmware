@@ -58,17 +58,17 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   * ,----------------------------------------------------------------------------------------------------------------------.
   * |  Tab |   !  |   "  |   #  |   $  |   %  |   `  |                    | Bksp |   7  |   8  |   9  |   0  |   @  |   \  |
   * |------+------+------+------+------+------+------+--------------------+------+------+------+------+------+------+------|
-  * |  Ctrl|   F1 |   F2 |   F3 |   F4 |   F5 |   [  |                    |   ]  |   4  |   5  |   6  |   +  |   *  |   =  |
+  * |  Ctrl|   F1 |   F2 |   F3 |   F4 |   F5 |   [  |                    |   ]  |   4  |   5  |   6  |   +  |   *  |   /  |
   * |------+------+------+------+------+------+---------------------------+------+------+------+------+------+------+------|
-  * | Shift|   F6 |   F7 |   F8 |   F9 |  F10 | Enter|                    | Space|   1  |   2  |   3  |   .  |   _  |   /  |
+  * | Shift|   F6 |   F7 |   F8 |   F9 |  F10 | Enter|                    | Space|   1  |   2  |   3  |   .  |   _  |   =  |
   * |-------------+------+------+------+------+------+------+------+------+------+------+------+------+------+-------------|
   * |  Esc |  F11 |  F12 |  GUI ||||||||  Eisu| Lower| Space|||||||| Enter| Raise|   0  ||||||||  GUI |      |      | Enter|
   * ,----------------------------------------------------------------------------------------------------------------------.
   */
   [_RAISE] = LAYOUT(
     KC_TAB,  KC_EXLM, KC_DQT,  KC_HASH, KC_DLR,  KC_PERC, KC_GRV,                       KC_BSPC,   KC_7,    KC_8,   KC_9,    KC_0,    KC_AT,   KC_BSLS, \
-    KC_LCTL, KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_LBRC,                      KC_RBRC,   KC_4,    KC_5,   KC_6,    KC_PLUS, KC_ASTR, KC_EQL , \
-    KC_LSFT, KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,   KC_ENT,                       KC_SPC,   KC_1,    KC_2,   KC_3,    KC_DOT,  KC_UNDS, KC_SLSH, \
+    KC_LCTL, KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_LBRC,                      KC_RBRC,   KC_4,    KC_5,   KC_6,    KC_PLUS, KC_ASTR, KC_SLSH , \
+    KC_LSFT, KC_F6,   KC_F7,   KC_F8,   KC_F9,   KC_F10,   KC_ENT,                       KC_SPC,   KC_1,    KC_2,   KC_3,    KC_DOT,  KC_UNDS, KC_EQL, \
     KC_ESC,  KC_F11,  KC_F12,  KC_LGUI,          KC_HANJ,  LOWER , KC_SPC,        KC_ENT,RAISE,    KC_0,            KC_RGUI, _______, _______, KC_ENT   \
     ),
 
