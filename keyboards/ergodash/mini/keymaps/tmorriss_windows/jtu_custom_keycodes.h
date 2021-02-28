@@ -20,6 +20,7 @@ enum jtu_custom_keycodes {
   JU_SCLN,
   JU_QUOT,
   JU_GRV,
+  TM_GRV,
   JU_CAPS,
   JTU_SAFE_RANGE
 };
