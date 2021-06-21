@@ -1,3 +1,3 @@
 #!/bin/bash
 
-make ergodash/mini:tmorriss;make ergodash/mini:tmorriss:avrdude
+make ergodash/mini:tmorriss_mac;make ergodash/mini:tmorriss_mac:avrdude
